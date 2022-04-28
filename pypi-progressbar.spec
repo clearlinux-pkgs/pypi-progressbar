@@ -4,7 +4,7 @@
 #
 Name     : pypi-progressbar
 Version  : 2.5
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/a3/a6/b8e451f6cff1c99b4747a2f7235aa904d2d49e8e1464e0b798272aa84358/progressbar-2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a3/a6/b8e451f6cff1c99b4747a2f7235aa904d2d49e8e1464e0b798272aa84358/progressbar-2.5.tar.gz
 Summary  : Text progress bar library for Python.
@@ -14,9 +14,6 @@ Requires: pypi-progressbar-license = %{version}-%{release}
 Requires: pypi-progressbar-python = %{version}-%{release}
 Requires: pypi-progressbar-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: progressbar
-Provides: progressbar-python
-Provides: progressbar-python3
 
 %description
 A text progress bar is typically used to display the progress of a long
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641471598
+export SOURCE_DATE_EPOCH=1651168203
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
