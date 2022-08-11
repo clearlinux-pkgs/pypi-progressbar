@@ -4,7 +4,7 @@
 #
 Name     : pypi-progressbar
 Version  : 2.5
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/a3/a6/b8e451f6cff1c99b4747a2f7235aa904d2d49e8e1464e0b798272aa84358/progressbar-2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a3/a6/b8e451f6cff1c99b4747a2f7235aa904d2d49e8e1464e0b798272aa84358/progressbar-2.5.tar.gz
 Summary  : Text progress bar library for Python.
